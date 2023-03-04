@@ -52,34 +52,27 @@ En el año 2024 está previsto cambiar todos los billetes, y los actuales pasar�
 ###  Vistas
 
 
-<p align="center"><img width="400" alt="nombre" src="""></p>
+<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897213-180f918b-8e65-49d3-91c6-ab8d7fca85ab.png"></p>
 
-<p align="center"><img width="400" alt="nombre" src=""></p>
+<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897289-11cfdd41-a6af-4092-827f-b66c0f099cf3.png"></p>
 
-<p align="center"><img width="400" alt="nombre" src=""></p>
+<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897316-63de2064-5a0d-490c-80d3-f50d960966f5.png"></p>
 
-<p align="center"><img width="400" alt="nombre" src=""></p>
-
-
-
-- [Alt text](../../Sketch%20Proyecto%20Personal.png)
-
-
-
-
-
-
+<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897337-b5154c3c-e1b4-4b01-9ed2-1f54117f7d2b.png"></p>
 
 - [Figma]https://www.figma.com/file/ZerDi1B277WC7pc142Jya7/Untitled?node-id=0%3A1&t=SokOpTSvvCzPlWMy-0
 
 
 
+### Diagrama de Flujo
 
+
+![Captura de pantalla (220)](https://user-images.githubusercontent.com/116894398/222897467-e54da1f6-89c7-4225-a4f5-63f5e706e028.png)
 
 - [Diagrama]https://drive.google.com/file/d/1QXJJPPhfHKvTqX_fhOwfloOBcy04x3VB/view?usp=sharing
 
 
-- [Alt text](../../DIAGRAMA%20PROYECTO%20PERSONAL.png)
+
 
 
   ### Autor
