@@ -1,9 +1,10 @@
 ### Tabla de Contenido
 1. [Información General](#Info-General)
 2. [Tecnologías](#Tecnologías)
-3. [Instalación](#Instalación)
-4. [Vistas](#Vistas)
-5. [Autor](#Autor)
+3. [Herramientas](#Herramientas)
+4. [Instalación](#Instalación)
+5. [Vistas](#Vistas)
+6. [Autor](#Autor)
 
 
 ### Información General 
@@ -35,17 +36,25 @@ En el año 2024 está previsto cambiar todos los billetes, y los actuales pasar�
 
 
 ### Tecnologías
-- Visual Studio Code
-- Figma
+- Vue
 - Java
 - Javascript
 - Bootstrap
 - Fake API
-- Git - GitHub
+- Scss
+- BootStrap
+- Sass
 
+### Herramientas
+- Visual Studio Code
+- Figma
+- Jira
+- Diagram.net
+- GitHub
 
 ### Instalación
 
+- npm install
 
 
 
