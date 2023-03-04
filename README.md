@@ -63,9 +63,9 @@ En el año 2024 está previsto cambiar todos los billetes, y los actuales pasar�
 
 <p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897213-180f918b-8e65-49d3-91c6-ab8d7fca85ab.png"></p>
 
-<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897289-11cfdd41-a6af-4092-827f-b66c0f099cf3.png"></p>
-<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897316-63de2064-5a0d-490c-80d3-f50d960966f5.png"></p>
-<p align="center"><img width="400" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897337-b5154c3c-e1b4-4b01-9ed2-1f54117f7d2b.png"></p>
+<p align="center"><img width="200" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897289-11cfdd41-a6af-4092-827f-b66c0f099cf3.png"></p>
+<p align="center"><img width="200" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897316-63de2064-5a0d-490c-80d3-f50d960966f5.png"></p>
+<p align="center"><img width="200" alt="nombre" src="https://user-images.githubusercontent.com/116894398/222897337-b5154c3c-e1b4-4b01-9ed2-1f54117f7d2b.png"></p>
 
 - [Figma]https://www.figma.com/file/ZerDi1B277WC7pc142Jya7/Untitled?node-id=0%3A1&t=SokOpTSvvCzPlWMy-0
 
