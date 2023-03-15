@@ -3,6 +3,7 @@ import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import Carousel from "../components/Carousel.vue";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -27,6 +28,7 @@ import Carousel from "../components/Carousel.vue";
         <div class="row">
           <div class="col-md-6">
             <div class="card">
+              <RouterLink to="/PrimeraSerie">
               <img
                 class="card-img-top"
                 src="../assets/img/primera-serie.jpg"
@@ -39,6 +41,7 @@ import Carousel from "../components/Carousel.vue";
                   the bulk of the card's content.
                 </p>
               </div>
+            </RouterLink>
             </div>
           </div>
           <div class="col-md-6">
