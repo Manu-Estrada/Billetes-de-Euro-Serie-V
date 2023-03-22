@@ -18,18 +18,21 @@ header{
   align-items: center;
   justify-content: center;
   font-family: Adlery_Swash;
+  border-radius: 10px;
 
   h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     color:white;
     text-align: center;
-    padding: 15px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    font-size: 4vw;
-
-    
+    font-size: 5vw; 
+    margin: 0%;
+    text-shadow: 5px 5px 5px black;
   }
 }
-
-
 </style>

@@ -126,12 +126,26 @@ import Navigation from "../components/Navigation.vue";
   <Footer></Footer>
 </template>
 
-<style scope lang="scss">
+<style lang="scss" scoped>
 figure {
   width: 100%;
   img {
     width: 100%;
     object-fit: cover;
+  }
+}
+
+button {
+  background-color: #9c4f79;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #9c4f79;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: white;
+    color: #9c4f79;
+    border: 2px solid #9c4f79;
   }
 }
 </style>

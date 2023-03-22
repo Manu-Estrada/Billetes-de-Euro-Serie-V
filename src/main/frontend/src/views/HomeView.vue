@@ -20,47 +20,48 @@ import { RouterLink } from "vue-router";
         </button>
       </div>
 
-    <Navigation></Navigation>
+      <Navigation></Navigation>
 
-    <Carousel></Carousel>
+      <Carousel></Carousel>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="card">
               <RouterLink to="/PrimeraSerie">
                 <figure class="ratio ratio-16x9">
-              <img
-                class="card-img-top"
-                src="../assets/img/primera-serie.jpg"
-                alt="Primera Serie"
-              /></figure>
-              <div class="card-body">
-                <h5 class="card-title">Primera Serie</h5>
-                <p class="card-text">
-                 Duisenberg, Trichet, Dragui.
-                </p>
-              </div>
-            </RouterLink>
+                  <img
+                    class="card-img-top"
+                    src="../assets/img/primera-serie.jpg"
+                    alt="Primera Serie"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h5 class="card-title">Primera Serie</h5>
+                  <p class="card-text">Duisenberg, Trichet, Dragui.</p>
+                </div>
+              </RouterLink>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
-              <figure class="ratio ratio-16x9">
-              <img
-                class="card-img-top"
-                src="../assets/img/segunda-serie.jpg"
-                alt="Segunda Serie"
-              /></figure>
-              <div class="card-body">
-                <h5 class="card-title">Segunda Serie</h5>
-                <p class="card-text">
-                  Adoptada, Serie Europa. Dragui.
-                </p>
-              </div>
+              <RouterLink to="/SegundaSerie">
+                <figure class="ratio ratio-16x9">
+                  <img
+                    class="card-img-top"
+                    src="../assets/img/segunda-serie.jpg"
+                    alt="Segunda Serie"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h5 class="card-title">Segunda Serie</h5>
+                  <p class="card-text">Adoptada, Serie Europa. Dragui.</p>
+                </div>
+              </RouterLink>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
+              <RouterLink to="/TerceraSerie">
               <figure class="ratio ratio-16x9">
                 <img
                   class="card-img-top"
@@ -70,31 +71,29 @@ import { RouterLink } from "vue-router";
               </figure>
               <div class="card-body">
                 <h5 class="card-title">Tercera Serie</h5>
-                <p class="card-text">
-                  Lagarde.
-                </p>
+                <p class="card-text">Lagarde.</p>
               </div>
+            </RouterLink>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
+              <RouterLink to="/Firmas">
               <figure class="ratio ratio-16x9">
-              <img
-                class="card-img-top"
-                src="../assets/img/firmas.jpg"
-                alt="Firmas"
-              /></figure>
+                <img
+                  class="card-img-top"
+                  src="../assets/img/firmas.jpg"
+                  alt="Firmas"
+                />
+              </figure>
               <div class="card-body">
                 <h5 class="card-title">Firmas</h5>
                 <p class="card-text">
-                  Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine Lagarde.
-
-
-
-
-
+                  Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
+                  Lagarde.
                 </p>
               </div>
+              </RouterLink>
             </div>
           </div>
         </div>
@@ -102,14 +101,17 @@ import { RouterLink } from "vue-router";
           <div class="col-md-6">
             <div class="card">
               <figure class="ratio ratio-16x9">
-              <img
-                class="card-img-top"
-                src="../assets/img/fnmt.webp"
-                alt="F.N.M.T."
-              /></figure>
+                <img
+                  class="card-img-top"
+                  src="../assets/img/fnmt.webp"
+                  alt="F.N.M.T."
+                />
+              </figure>
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="https://www.fnmt.es">Fábrica Nacional de Moneda y Timbre</a>
+                  <a href="https://www.fnmt.es"
+                    >Fábrica Nacional de Moneda y Timbre</a
+                  >
                 </h5>
               </div>
             </div>
@@ -117,11 +119,12 @@ import { RouterLink } from "vue-router";
           <div class="col-md-6">
             <div class="card">
               <figure class="ratio ratio-16x9">
-              <img
-                class="card-img-top"
-                src="../assets/img/banco-de-espana-.jpg"
-                alt="Banco de España"
-              /></figure>
+                <img
+                  class="card-img-top"
+                  src="../assets/img/banco-de-espana-.jpg"
+                  alt="Banco de España"
+                />
+              </figure>
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="https://www.bde.es">Banco de España</a>
@@ -145,20 +148,20 @@ figure {
   }
 }
 
-button{
-  background-color: #9C4F79;
+button {
+  background-color: #9c4f79;
   color: white;
   font-weight: bold;
-  border: 2px solid #9C4F79;
+  border: 2px solid #9c4f79;
   transition: all 0.4s;
 
-  &:hover{
+  &:hover {
     background-color: white;
-    color: #9C4F79;
-    border: 2px solid #9C4F79;
+    color: #9c4f79;
+    border: 2px solid #9c4f79;
   }
 }
 .card {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 </style>

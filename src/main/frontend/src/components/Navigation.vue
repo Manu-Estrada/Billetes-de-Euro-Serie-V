@@ -19,6 +19,9 @@ nav {
   background-color: #e8c0da;
   padding: 10px;
   ul {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     list-style: none;
     justify-content: space-around;

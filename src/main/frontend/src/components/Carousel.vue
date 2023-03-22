@@ -183,7 +183,7 @@ export default {
 <style lang="scss" scoped>
 .carousel-item {
   img {
-    height: 20vw;
+    height: 40vw;
     object-fit: cover;
   }
 }
