@@ -12,7 +12,7 @@
 }
 
 header{
-  background-image: url("../assets/img/billetes-euro-espanoles-serie-v.jpg");
+  background-image: url("../assets/img/billeteseuro1706x960.jpg");
   height: 15vw;
   display: flex;
   align-items: center;

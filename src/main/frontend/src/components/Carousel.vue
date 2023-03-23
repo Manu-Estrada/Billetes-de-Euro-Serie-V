@@ -84,6 +84,66 @@ export default {
               data-bs-slide-to="9"
               aria-label="Slide 10"
             ></button>
+            <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="10"
+            aria-label="Slide 11"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="11"
+          aria-label="Slide 12"
+        ></button>
+        <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="12"
+        aria-label="Slide 13"
+      ></button>
+      <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="13"
+      aria-label="Slide 14"
+    ></button>
+    <button
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide-to="14"
+    aria-label="Slide 15"
+  ></button>
+  <button
+  type="button"
+  data-bs-target="#carouselExampleIndicators"
+  data-bs-slide-to="15"
+  aria-label="Slide 16"
+></button>
+<button
+type="button"
+data-bs-target="#carouselExampleIndicators"
+data-bs-slide-to="16"
+aria-label="Slide 17"
+></button>
+<button
+type="button"
+data-bs-target="#carouselExampleIndicators"
+data-bs-slide-to="17"
+aria-label="Slide 18"
+></button>
+<button
+type="button"
+data-bs-target="#carouselExampleIndicators"
+data-bs-slide-to="18"
+aria-label="Slide 19"
+></button>
+<button
+type="button"
+data-bs-target="#carouselExampleIndicators"
+data-bs-slide-to="19"
+aria-label="Slide 20"
+></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -146,7 +206,7 @@ export default {
               <img
                 class="d-block w-100"
                 src="../assets/img/carousel9.jpg"
-                alt="Nineth slide"
+                alt="Ninth slide"
               />
             </div>
             <div class="carousel-item">
@@ -154,6 +214,76 @@ export default {
                 class="d-block w-100"
                 src="../assets/img/carousel10.jpg"
                 alt="Tenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel11.jpg"
+                alt="Eleventh slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel12.jpg"
+                alt="Twelth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel13.jpg"
+                alt="Thirteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel14.jpg"
+                alt="Fourteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel15.jpg"
+                alt="Fifteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel16.jpg"
+                alt="Sixteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel17.jpg"
+                alt="Seventeenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel18.jpg"
+                alt="Eighteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel19.jpg"
+                alt="Nineteenth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="../assets/img/carousel20.jpg"
+                alt="Twentieth slide"
               />
             </div>
           </div>

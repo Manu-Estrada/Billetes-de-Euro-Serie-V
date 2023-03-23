@@ -67,20 +67,20 @@ import Navigation from "../components/Navigation.vue";
           </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
-          <figure>
-            <img src="../assets/img/firmas/lagardefirma.jpg" alt="" />
-          </figure>
-          <div class="card-body">
-            <h5 class="card-title">
-              <a
-                href="https://es.wikipedia.org/wiki/Christine_Lagarde"
-                target="_blank"
-                >Christine Lagarde</a
-              >
-            </h5>
+          <div class="card">
+            <figure>
+              <img src="../assets/img/firmas/lagardefirma.jpg" alt="" />
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a
+                  href="https://es.wikipedia.org/wiki/Christine_Lagarde"
+                  target="_blank"
+                  >Christine Lagarde</a
+                >
+              </h5>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </div>

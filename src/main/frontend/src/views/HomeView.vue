@@ -31,7 +31,7 @@ import { RouterLink } from "vue-router";
                 <figure class="ratio ratio-16x9">
                   <img
                     class="card-img-top"
-                    src="../assets/img/primera-serie.jpg"
+                    src="../assets/img/primera-serie.webp"
                     alt="Primera Serie"
                   />
                 </figure>
@@ -82,7 +82,7 @@ import { RouterLink } from "vue-router";
               <figure class="ratio ratio-16x9">
                 <img
                   class="card-img-top"
-                  src="../assets/img/firmas.jpg"
+                  src="../assets/img/firmas.jpeg"
                   alt="Firmas"
                 />
               </figure>
@@ -153,7 +153,7 @@ button {
   color: white;
   font-weight: bold;
   border: 2px solid #9c4f79;
-  transition: all 0.4s;
+  transition: all 0.2s;
 
   &:hover {
     background-color: white;
