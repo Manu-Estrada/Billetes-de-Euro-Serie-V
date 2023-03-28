@@ -58,9 +58,9 @@ import Navigation from "../components/Navigation.vue";
             />
           </figure>
         </div>
-       </div> 
-        <h2>Dragui Serie VB</h2>
-        <div class="row">
+      </div>
+      <h2>Dragui Serie VB</h2>
+      <div class="row">
         <div class="col-md-3">
           <figure>
             <img
@@ -87,9 +87,9 @@ import Navigation from "../components/Navigation.vue";
             />
           </figure>
         </div>
-       </div> 
-        <h2>Dragui Serie VH</h2>
-        <div class="row">
+      </div>
+      <h2>Dragui Serie VH</h2>
+      <div class="row">
         <div class="col-md-3">
           <figure>
             <img
@@ -107,6 +107,59 @@ import Navigation from "../components/Navigation.vue";
           </figure>
         </div>
       </div>
+
+      <h2>Lagarde Serie VB</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vb/billete5€Lagarde-VB.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vb/billete10€LagardeVB.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vb/billete50€Lagarde-VB.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <h2>Lagarde Serie VC</h2>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vc/billete5€Lagarde-VC.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vc/billete10€LagardeVC.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/serie-vc/billete50€Lagarde-VC.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
     </div>
   </main>
   <Footer></Footer>
@@ -116,7 +169,7 @@ import Navigation from "../components/Navigation.vue";
 figure {
   margin: 0;
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
   img {
     width: 100%;
   }

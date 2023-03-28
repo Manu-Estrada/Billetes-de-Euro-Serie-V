@@ -22,12 +22,12 @@ import { RouterLink } from "vue-router";
 
       <Navigation></Navigation>
 
-      <Carousel></Carousel>
+      <Carousel></Carousel> 
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="card">
-              <RouterLink to="/PrimeraSerie">
+              <RouterLink to="/primeraserie">
                 <figure class="ratio ratio-16x9">
                   <img
                     class="card-img-top"
@@ -37,7 +37,7 @@ import { RouterLink } from "vue-router";
                 </figure>
                 <div class="card-body">
                   <h5 class="card-title">Primera Serie</h5>
-                  <p class="card-text">Duisenberg, Trichet, Dragui.</p>
+                  <p class="card-text">Win Duisenberg, Jean-Claude Trichet, Mario Dragui.</p>
                 </div>
               </RouterLink>
             </div>
@@ -54,7 +54,7 @@ import { RouterLink } from "vue-router";
                 </figure>
                 <div class="card-body">
                   <h5 class="card-title">Segunda Serie</h5>
-                  <p class="card-text">Adoptada, Serie Europa. Dragui.</p>
+                  <p class="card-text">Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.</p>
                 </div>
               </RouterLink>
             </div>
@@ -65,13 +65,13 @@ import { RouterLink } from "vue-router";
               <figure class="ratio ratio-16x9">
                 <img
                   class="card-img-top"
-                  src="../assets/img/tercera-serie.jpeg"
+                  src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-0.jpg"
                   alt="Tercera Serie"
                 />
               </figure>
               <div class="card-body">
                 <h5 class="card-title">Tercera Serie</h5>
-                <p class="card-text">Lagarde.</p>
+                <p class="card-text">2024</p>
               </div>
             </RouterLink>
             </div>
@@ -82,7 +82,7 @@ import { RouterLink } from "vue-router";
               <figure class="ratio ratio-16x9">
                 <img
                   class="card-img-top"
-                  src="../assets/img/firmas.jpeg"
+                  src="../assets/img/banderafirmas.jpg"
                   alt="Firmas"
                 />
               </figure>
@@ -110,6 +110,7 @@ import { RouterLink } from "vue-router";
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="https://www.fnmt.es"
+                  target="_blank"
                     >Fábrica Nacional de Moneda y Timbre</a
                   >
                 </h5>
@@ -127,7 +128,9 @@ import { RouterLink } from "vue-router";
               </figure>
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="https://www.bde.es">Banco de España</a>
+                  <a href="https://www.bde.es"
+                  target="_blank"
+                  >Banco de España</a>
                 </h5>
               </div>
             </div>
