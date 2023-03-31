@@ -2,18 +2,11 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
+import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 </script>
 <template>
-  <Header></Header>
   <main>
-    <div class="d-grid gap-2 d-md-flex justify-content-around mt-5 mb-5">
-      <button type="button" class="btn btn-outline-primary px-5">
-        Regístrate
-      </button>
-      <button type="button" class="btn btn-outline-success px-5">
-        Inicia Sesión
-      </button>
-    </div>
+    <ButtonsRegisterVue></ButtonsRegisterVue>
     <Navigation></Navigation>
     <div class="container">
       <h2>Dragui Serie VA</h2>
@@ -113,7 +106,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-4">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vb/billete5€Lagarde-VB.jpg"
+              src="../assets/img/segundaserie/serie-vb-lagarde/billete5€Lagarde-VB.jpg"
               alt=""
             />
           </figure>
@@ -121,7 +114,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-3">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vb/billete10€LagardeVB.jpg"
+              src="../assets/img/segundaserie/serie-vb-lagarde/billete10€LagardeVB.jpg"
               alt=""
             />
           </figure>
@@ -129,7 +122,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-3">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vb/billete50€Lagarde-VB.jpg"
+              src="../assets/img/segundaserie/serie-vb-lagarde/billete50€Lagarde-VB.jpg"
               alt=""
             />
           </figure>
@@ -138,7 +131,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-3">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vc/billete5€Lagarde-VC.jpg"
+              src="../assets/img/segundaserie/serie-vc/billete5€Lagarde-VC.jpg"
               alt=""
             />
           </figure>
@@ -146,7 +139,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-3">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vc/billete10€LagardeVC.jpg"
+              src="../assets/img/segundaserie/serie-vc/billete10€LagardeVC.jpg"
               alt=""
             />
           </figure>
@@ -154,7 +147,7 @@ import Navigation from "../components/Navigation.vue";
         <div class="col-md-3">
           <figure>
             <img
-              src="../assets/img/terceraserie/serie-vc/billete50€Lagarde-VC.jpg"
+              src="../assets/img/segundaserie/serie-vc/billete50€Lagarde-VC.jpg"
               alt=""
             />
           </figure>
@@ -172,20 +165,6 @@ figure {
   object-fit: cover;
   img {
     width: 100%;
-  }
-}
-
-button {
-  background-color: #9c4f79;
-  color: white;
-  font-weight: bold;
-  border: 2px solid #9c4f79;
-  transition: all 0.4s;
-
-  &:hover {
-    background-color: white;
-    color: #9c4f79;
-    border: 2px solid #9c4f79;
   }
 }
 </style>

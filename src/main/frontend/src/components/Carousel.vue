@@ -1,16 +1,8 @@
-<script>
-//importing bootstrap 5
+<script setup>
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import * as Bootstrap from "bootstrap";
-//import DemoComponent from "./components/DemoComponent.vue"
 
-export default {
-  mounted() {
-    var myCarousel = document.querySelector("#myCarousel");
-    new Bootstrap.Carousel(myCarousel);
-  },
-};
+ 
 </script>
 <template>
   <div class="container">
@@ -85,204 +77,204 @@ export default {
               aria-label="Slide 10"
             ></button>
             <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="10"
-            aria-label="Slide 11"
-          ></button>
-          <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="11"
-          aria-label="Slide 12"
-        ></button>
-        <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="12"
-        aria-label="Slide 13"
-      ></button>
-      <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="13"
-      aria-label="Slide 14"
-    ></button>
-    <button
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide-to="14"
-    aria-label="Slide 15"
-  ></button>
-  <button
-  type="button"
-  data-bs-target="#carouselExampleIndicators"
-  data-bs-slide-to="15"
-  aria-label="Slide 16"
-></button>
-<button
-type="button"
-data-bs-target="#carouselExampleIndicators"
-data-bs-slide-to="16"
-aria-label="Slide 17"
-></button>
-<button
-type="button"
-data-bs-target="#carouselExampleIndicators"
-data-bs-slide-to="17"
-aria-label="Slide 18"
-></button>
-<button
-type="button"
-data-bs-target="#carouselExampleIndicators"
-data-bs-slide-to="18"
-aria-label="Slide 19"
-></button>
-<button
-type="button"
-data-bs-target="#carouselExampleIndicators"
-data-bs-slide-to="19"
-aria-label="Slide 20"
-></button>
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="10"
+              aria-label="Slide 11"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="11"
+              aria-label="Slide 12"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="12"
+              aria-label="Slide 13"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="13"
+              aria-label="Slide 14"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="14"
+              aria-label="Slide 15"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="15"
+              aria-label="Slide 16"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="16"
+              aria-label="Slide 17"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="17"
+              aria-label="Slide 18"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="18"
+              aria-label="Slide 19"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="19"
+              aria-label="Slide 20"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel1.webp"
+                src="../assets/img/carousel/carousel1.webp"
                 alt="First slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel2.png"
+                src="../assets/img/carousel/carousel2.png"
                 alt="Second slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel3.jpg"
+                src="../assets/img/carousel/carousel3.jpg"
                 alt="Third slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel4.webp"
+                src="../assets/img/carousel/carousel4.webp"
                 alt="Fourth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel5.jpg"
+                src="../assets/img/carousel/carousel5.jpg"
                 alt="Fifth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel6.jpg"
+                src="../assets/img/carousel/carousel6.jpg"
                 alt="Sixth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel7.jpg"
+                src="../assets/img/carousel/carousel7.jpg"
                 alt="Seventh slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel8.jpg"
+                src="../assets/img/carousel/carousel8.jpg"
                 alt="Eighth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel9.jpg"
+                src="../assets/img/carousel/carousel9.jpg"
                 alt="Ninth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel10.jpg"
+                src="../assets/img/carousel/carousel10.jpg"
                 alt="Tenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel11.jpg"
+                src="../assets/img/carousel/carousel11.jpg"
                 alt="Eleventh slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel12.jpg"
+                src="../assets/img/carousel/carousel12.jpg"
                 alt="Twelth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel13.jpg"
+                src="../assets/img/carousel/carousel13.jpg"
                 alt="Thirteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel14.jpg"
+                src="../assets/img/carousel/carousel14.jpg"
                 alt="Fourteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel15.jpg"
+                src="../assets/img/carousel/carousel15.jpg"
                 alt="Fifteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel16.jpg"
+                src="../assets/img/carousel/carousel16.jpg"
                 alt="Sixteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel17.jpg"
+                src="../assets/img/carousel/carousel17.jpg"
                 alt="Seventeenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel18.jpg"
+                src="../assets/img/carousel/carousel18.jpg"
                 alt="Eighteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel19.jpg"
+                src="../assets/img/carousel/carousel19.jpg"
                 alt="Nineteenth slide"
               />
             </div>
             <div class="carousel-item">
               <img
                 class="d-block w-100"
-                src="../assets/img/carousel20.jpg"
+                src="../assets/img/carousel/carousel20.jpg"
                 alt="Twentieth slide"
               />
             </div>

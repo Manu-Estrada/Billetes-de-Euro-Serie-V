@@ -2,18 +2,12 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
+import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
+
 </script>
 <template>
-  <Header></Header>
   <main>
-    <div class="d-grid gap-2 d-md-flex justify-content-around mt-5 mb-5">
-      <button type="button" class="btn btn-outline-primary px-5">
-        Regístrate
-      </button>
-      <button type="button" class="btn btn-outline-success px-5">
-        Inicia Sesión
-      </button>
-    </div>
+  <ButtonsRegisterVue></ButtonsRegisterVue> 
     <Navigation></Navigation>
     <div class="container">
       <h2>Duisenberg</h2>
@@ -135,17 +129,5 @@ figure {
   }
 }
 
-button {
-  background-color: #9c4f79;
-  color: white;
-  font-weight: bold;
-  border: 2px solid #9c4f79;
-  transition: all 0.4s;
 
-  &:hover {
-    background-color: white;
-    color: #9c4f79;
-    border: 2px solid #9c4f79;
-  }
-}
 </style>

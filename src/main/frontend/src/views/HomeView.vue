@@ -1,28 +1,19 @@
 <script setup>
-import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import Carousel from "../components/Carousel.vue";
 import { RouterLink } from "vue-router";
+import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 </script>
 
 <template>
   <div>
-    <Header />
-
     <main>
-      <div class="d-grid gap-2 d-md-flex justify-content-around mt-5 mb-5">
-        <button type="button" class="btn btn-outline-primary px-5">
-          Regístrate
-        </button>
-        <button type="button" class="btn btn-outline-success px-5">
-          Inicia Sesión
-        </button>
-      </div>
-
+      <ButtonsRegisterVue></ButtonsRegisterVue>
       <Navigation></Navigation>
 
-      <Carousel></Carousel> 
+      <Carousel></Carousel>
+
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -37,7 +28,9 @@ import { RouterLink } from "vue-router";
                 </figure>
                 <div class="card-body">
                   <h5 class="card-title">Primera Serie</h5>
-                  <p class="card-text">Win Duisenberg, Jean-Claude Trichet, Mario Dragui.</p>
+                  <p class="card-text">
+                    Win Duisenberg, Jean-Claude Trichet, Mario Dragui.
+                  </p>
                 </div>
               </RouterLink>
             </div>
@@ -54,7 +47,9 @@ import { RouterLink } from "vue-router";
                 </figure>
                 <div class="card-body">
                   <h5 class="card-title">Segunda Serie</h5>
-                  <p class="card-text">Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.</p>
+                  <p class="card-text">
+                    Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.
+                  </p>
                 </div>
               </RouterLink>
             </div>
@@ -62,37 +57,37 @@ import { RouterLink } from "vue-router";
           <div class="col-md-6">
             <div class="card">
               <RouterLink to="/TerceraSerie">
-              <figure class="ratio ratio-16x9">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-0.jpg"
-                  alt="Tercera Serie"
-                />
-              </figure>
-              <div class="card-body">
-                <h5 class="card-title">Tercera Serie</h5>
-                <p class="card-text">2024</p>
-              </div>
-            </RouterLink>
+                <figure class="ratio ratio-16x9">
+                  <img
+                    class="card-img-top"
+                    src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-0.jpg"
+                    alt="Tercera Serie"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h5 class="card-title">Tercera Serie</h5>
+                  <p class="card-text">2024</p>
+                </div>
+              </RouterLink>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
               <RouterLink to="/Firmas">
-              <figure class="ratio ratio-16x9">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/banderafirmas.jpg"
-                  alt="Firmas"
-                />
-              </figure>
-              <div class="card-body">
-                <h5 class="card-title">Firmas</h5>
-                <p class="card-text">
-                  Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
-                  Lagarde.
-                </p>
-              </div>
+                <figure class="ratio ratio-16x9">
+                  <img
+                    class="card-img-top"
+                    src="../assets/img/banderafirmas.jpg"
+                    alt="Firmas"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h5 class="card-title">Firmas</h5>
+                  <p class="card-text">
+                    Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
+                    Lagarde.
+                  </p>
+                </div>
               </RouterLink>
             </div>
           </div>
@@ -109,8 +104,7 @@ import { RouterLink } from "vue-router";
               </figure>
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="https://www.fnmt.es"
-                  target="_blank"
+                  <a href="https://www.fnmt.es" target="_blank"
                     >Fábrica Nacional de Moneda y Timbre</a
                   >
                 </h5>
@@ -128,9 +122,9 @@ import { RouterLink } from "vue-router";
               </figure>
               <div class="card-body">
                 <h5 class="card-title">
-                  <a href="https://www.bde.es"
-                  target="_blank"
-                  >Banco de España</a>
+                  <a href="https://www.bde.es" target="_blank"
+                    >Banco de España</a
+                  >
                 </h5>
               </div>
             </div>
@@ -148,20 +142,6 @@ figure {
   image {
     width: 100%;
     object-fit: cover;
-  }
-}
-
-button {
-  background-color: #9c4f79;
-  color: white;
-  font-weight: bold;
-  border: 2px solid #9c4f79;
-  transition: all 0.2s;
-
-  &:hover {
-    background-color: white;
-    color: #9c4f79;
-    border: 2px solid #9c4f79;
   }
 }
 .card {
