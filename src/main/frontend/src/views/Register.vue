@@ -61,7 +61,7 @@ async function save() {
     <div class="container">
       <div id="TitleAndButton">
         <h1>
-          Date de alta:
+          Date de alta, 
           <span id="Subtitle">es necesario estar registrado.</span>
         </h1>
       </div>
@@ -136,4 +136,43 @@ async function save() {
   <Footer></Footer>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+h1 {
+  color:rgb(218, 22, 22);
+  text-align: center;
+  font-family: Adlery_Swash;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+form {
+  color:#9C4F79;
+  font-family: Didot;
+}
+
+#buttons-box {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: flex-end;
+ gap: 10px;
+
+ button {
+  background-color: rgb(230, 200, 236);
+  color: rgb(137, 59, 59);
+  font-weight: bold;
+  border: 2px solid #d17dcf;
+  transition: all 0.2s;
+
+&:hover {
+    background-color: white;
+    color: rgb(5, 101, 5);
+    border: 2px solid #117e37;
+  }
+}
+}
+
+.Asterisk {
+  color: red;
+}
+
+</style>

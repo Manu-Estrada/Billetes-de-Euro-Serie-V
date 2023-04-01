@@ -20,15 +20,24 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  
   nav {
-    background-color: #e8c0da;
+    background-color: rgb(198, 188, 188);
     padding: 10px;
     width: 100%;
+
     ul {
-      display: flex;
-      list-style: none;
-      justify-content: space-around;
-      font-size: 24px;
+        margin: 0;
+        padding: 0;
+        font-family: Didot;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
   
       a {
           transition: all 0.4s;

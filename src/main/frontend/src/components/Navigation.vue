@@ -16,12 +16,14 @@ import { RouterLink } from "vue-router";
 
 <style scoped lang="scss">
 nav {
-  background-color: #e8c0da;
+  background-color:rgb(198, 188, 188);
   padding: 10px;
   ul {
     margin: 0;
     padding: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Didot;
+    color: white;
+    text-shadow: 1px 1px 1px black;
     display: flex;
     list-style: none;
     justify-content: space-around;
