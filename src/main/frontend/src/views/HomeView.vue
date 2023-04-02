@@ -27,7 +27,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                   />
                 </figure>
                 <div class="card-body">
-                  <h5 class="card-title">Primera Serie</h5>
+                  <h1 class="card-title">Primera Serie</h1>
                   <p class="card-text">
                     Win Duisenberg, Jean-Claude Trichet, Mario Dragui.
                   </p>
@@ -46,7 +46,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                   />
                 </figure>
                 <div class="card-body">
-                  <h5 class="card-title">Segunda Serie</h5>
+                  <h1 class="card-title">Segunda Serie</h1>
                   <p class="card-text">
                     Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.
                   </p>
@@ -65,7 +65,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                   />
                 </figure>
                 <div class="card-body">
-                  <h5 class="card-title">Tercera Serie</h5>
+                  <h1 class="card-title">Tercera Serie</h1>
                   <p class="card-text">2024</p>
                 </div>
               </RouterLink>
@@ -82,7 +82,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                   />
                 </figure>
                 <div class="card-body">
-                  <h5 class="card-title">Firmas</h5>
+                  <h1 class="card-title">Firmas</h1>
                   <p class="card-text">
                     Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
                     Lagarde.
@@ -103,11 +103,11 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 />
               </figure>
               <div class="card-body">
-                <h5 class="card-title">
+                <h1 class="card-title">
                   <a href="https://www.fnmt.es" target="_blank"
-                    >Fábrica Nacional de Moneda y Timbre</a
+                    >F.N.M.T.</a
                   >
-                </h5>
+                </h1>
               </div>
             </div>
           </div>
@@ -121,11 +121,11 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 />
               </figure>
               <div class="card-body">
-                <h5 class="card-title">
+                <h1 class="card-title">
                   <a href="https://www.bde.es" target="_blank"
                     >Banco de España</a
                   >
-                </h5>
+                </h1>
               </div>
             </div>
           </div>
@@ -146,5 +146,13 @@ figure {
 }
 .card {
   margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 </style>

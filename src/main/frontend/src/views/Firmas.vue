@@ -1,5 +1,4 @@
 <script setup>
-import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
@@ -9,7 +8,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     <ButtonsRegisterVue></ButtonsRegisterVue>
     <Navigation></Navigation>
     <div class="container">
-      <h2>Firmas de Presidencia del Banco Central Europeo</h2>
+      <h1>Firmas de Presidencia del Banco Central Europeo</h1>
       <div class="row">
         <div class="col-md-3">
           <div class="card">
@@ -88,5 +87,17 @@ figure {
     width: 100%;
     object-fit: cover;
   }
+}
+h1 {
+  font-family: Adlery_Swash ;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(8, 45, 94);
+}
+
+h5 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 </style>

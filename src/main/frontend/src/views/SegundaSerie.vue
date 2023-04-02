@@ -152,6 +152,15 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
             />
           </figure>
         </div>
+        <h2>Lagarde Serie VD</h2>
+        <div class="col-md-3">
+          <figure>
+            <img
+              src="../assets/img/serie-vd/billete50€Lagarde-VD.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
       </div>
     </div>
   </main>

@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
           <RouterLink to="/Registrate">Regístrate</RouterLink>  
         </button>
         <button type="button" class="btn btn-outline-success px-5">
-          Inicia Sesión
+          <RouterLink to="/IniciarSesion">Iniciar Sesión</RouterLink>  
         </button>
       </div>        
 </template>
