@@ -28,8 +28,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Primera Serie</h1>
-                  <p class="card-text">
+                  <p class="card-text"><strong>
                     Win Duisenberg, Jean-Claude Trichet, Mario Dragui.
+                  </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -47,8 +48,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Segunda Serie</h1>
-                  <p class="card-text">
+                  <p class="card-text"><strong>
                     Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.
+                  </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -66,7 +68,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Tercera Serie</h1>
-                  <p class="card-text">2024</p>
+                  <p class="card-text"><strong>2024</strong></p>
                 </div>
               </RouterLink>
             </div>
@@ -83,9 +85,10 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Firmas</h1>
-                  <p class="card-text">
+                  <p class="card-text"><strong>
                     Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
                     Lagarde.
+                  </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -150,9 +153,14 @@ figure {
 
 h1 {
   text-align: center;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 p {
   text-align: center;
 }
+.card-title {
+  
+}
+
 </style>

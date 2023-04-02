@@ -94,4 +94,19 @@ figure {
     object-fit: cover;
   }
 }
+
+h2 {
+  text-align: center;
+  font-family: Adlery_Swash;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px black;
+}
 </style>

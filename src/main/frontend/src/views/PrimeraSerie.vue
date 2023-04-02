@@ -129,5 +129,12 @@ figure {
   }
 }
 
+h2 {
+  text-align: center;
+  font-family: Adlery_Swash;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 </style>

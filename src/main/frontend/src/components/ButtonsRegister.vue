@@ -14,17 +14,22 @@ import { RouterLink } from 'vue-router';
 
 <style scoped lang="scss">
 button {
-  background-color: rgb(230, 200, 236);
-  color: rgb(137, 59, 59);
+  background-color: rgb(131, 131, 244);
   font-weight: bold;
-  border: 2px solid #d17dcf;
+  border: 2px solid rgb(11, 11, 134);
   transition: all 0.2s;
 
 &:hover {
-    background-color: white;
-    color: rgb(5, 101, 5);
-    border: 2px solid #117e37;
+    background-color: whitesmoke;
+    border: 2px solid blue;
+    a {
+      color: rgb(131, 131, 244);
+    }
   }
+}
+a {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 </style>

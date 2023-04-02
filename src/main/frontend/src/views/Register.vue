@@ -2,24 +2,56 @@
 import Footer from "../components/Footer.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 import Navigation from "../components/Navigation.vue";
-import AuthService from "../assets/apis/authentication/authService"
 
 function resetForm() {
-  document.getElementById("username").value = "";
+  document.getElementById("userName").value = "";
   document.getElementById("password").value = "";
   document.getElementById("ConfirmPassword").value = "";
-  incident.username = "";
+  incident.userName = "";
   incident.password = "";
 }
-let userName = "";
-let password = "";
-const store = useAuthStore();
-
-const submitData = async () => {
-  const authService = new AuthService();
-  const response = await authService.login(userName, password);
-  router.push("/");
+let incident = {
+  userName: "",
+  password: "",
 };
+async function save() {
+  if (incident.userName == "") {
+    alert("email is needed");
+    return;
+  }
+  if (incident.password == "") {
+    alert("password is needed");
+    return;
+  }
+  const baseUrl = "http://localhost:8080";
+  let auth = "";
+  auth = encodeB64(incident.password);
+  incident.password = auth;
+  const payload = JSON.stringify(this.incident);
+  console.log(payload);
+  const url = "http://localhost:8080/api/register/add";
+  const r = await fetch(url, {
+    mode: "no-cors",
+    method: "POST",
+    body: payload,
+    headers: {
+      "Content-type": "application/json",
+    },
+  });
+  function encodeB64(password) {
+    const encodeData = window.btoa(`${password}`);
+    return encodeData;
+  }
+
+  const response = r;
+  console.log(response);
+  if (response) {
+    alert("Added " + incident.userName);
+    resetForm();
+  } else {
+    alert("An error has occurred.\nPlease try again after a few minutes.");
+  }
+}
 </script>
 
 <template>
@@ -29,7 +61,7 @@ const submitData = async () => {
     <div class="container">
       <div id="TitleAndButton">
         <h1>
-          Date de alta, 
+          Date de alta,
           <span id="Subtitle">es necesario estar registrado.</span>
         </h1>
       </div>
@@ -41,12 +73,12 @@ const submitData = async () => {
           >
         </div>
         <div class="form-group">
-          <label for="username"><span class="Asterisk">* </span>E-mail</label>
+          <label for="userName"><span class="Asterisk">* </span>E-mail</label>
           <input
-            v-model="incident.username"
+            v-model="incident.userName"
             type="email"
             class="form-control form-control-lg"
-            id="username"
+            id="userName"
             placeholder="Escribe un email"
             required
           />
@@ -106,41 +138,50 @@ const submitData = async () => {
 
 <style lang="scss" scoped>
 h1 {
-  color:rgb(218, 22, 22);
+  color: rgb(218, 22, 22);
   text-align: center;
   font-family: Adlery_Swash;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 form {
-  color:#9C4F79;
+  color: #9c4f79;
   font-family: Didot;
 }
 
 #buttons-box {
- margin-top: 10px;
- margin-bottom: 10px;
- display: flex;
- justify-content: flex-end;
- gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 
- button {
-  background-color: rgb(230, 200, 236);
-  color: rgb(137, 59, 59);
-  font-weight: bold;
-  border: 2px solid #d17dcf;
-  transition: all 0.2s;
+  button {
+    background-color: rgb(131, 131, 244);
+    font-weight: bold;
+    border: 2px solid rgb(11, 11, 134);
+    transition: all 0.2s;
+    text-shadow: 0.5px 0.5px 0.5px black;
 
-&:hover {
-    background-color: white;
-    color: rgb(5, 101, 5);
-    border: 2px solid #117e37;
+    
+  
+  &:hover {
+      background-color: whitesmoke;
+      border: 2px solid blue;
+      color: rgb(131, 131, 244);
+      text-shadow: 0.5px 0.5px 0.5px black;
+      
+    }
+  }
+  a {
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
   }
 }
-}
-
+ div.container {
+  background-color: rgb(244, 244, 226);
+ }
 .Asterisk {
   color: red;
 }
-
 </style>

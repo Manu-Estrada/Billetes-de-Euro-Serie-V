@@ -40,9 +40,10 @@ footer{
         font-weight: bold;
   
       a {
+        color: white;
           transition: all 0.4s;
           &:hover{
-              color: black;
+              color: blue;
           }
       }
     }
