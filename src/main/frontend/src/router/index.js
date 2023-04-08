@@ -59,8 +59,62 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/Firmas.vue')
-    }
+    },
 
+  
+  
+    {
+      path: '/src/views/Diviertete.vue',
+      name: 'diviertete',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Diviertete.vue')
+    },
+  {
+    path: '/src/views/PiedraPapelTijera.vue',
+    name: 'piedrapapeltijera',
+    // route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/PiedraPapelTijera.vue')
+  },
+   
+  {
+    path: '/src/views/Tragaperras.vue',
+    name: 'tragaperras',
+    // route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/Tragaperras.vue')
+  },
+
+  {
+  path: '/src/views/Tragaperras.vue',
+  name: 'tragaperras',
+  // route level code-splitting
+  // this generates a separate chunk (About.[hash].js) for this route
+  // which is lazy-loaded when the route is visited.
+  component: () => import('../views/Tragaperras.vue')
+},
+
+  {
+  path: '/src/views/Contacto.vue',
+  name: 'contacto',
+  // route level code-splitting
+  // this generates a separate chunk (About.[hash].js) for this route
+  // which is lazy-loaded when the route is visited.
+  component: () => import('../views/Contacto.vue')
+  },
+
+  {
+  path: '/src/views/Fabricacion.vue',
+  name: 'fabricacion',
+  // route level code-splitting
+  // this generates a separate chunk (About.[hash].js) for this route
+  // which is lazy-loaded when the route is visited.
+  component: () => import('../views/Fabricacion.vue')
+  }
   ]
 })
 

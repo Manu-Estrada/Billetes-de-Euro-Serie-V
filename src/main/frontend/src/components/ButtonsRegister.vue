@@ -28,7 +28,7 @@ button {
   }
 }
 a {
-  color: white;
+  color: whitesmoke;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 

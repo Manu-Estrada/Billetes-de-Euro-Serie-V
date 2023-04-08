@@ -159,8 +159,6 @@ h1 {
 p {
   text-align: center;
 }
-.card-title {
-  
-}
+
 
 </style>

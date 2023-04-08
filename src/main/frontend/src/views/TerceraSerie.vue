@@ -1,5 +1,4 @@
 <script setup>
-import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
@@ -11,7 +10,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     <div class="container">
       <h2>Próximamente ...</h2>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-1.jpg"
@@ -21,7 +20,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-2.jpg"
@@ -31,7 +30,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-3.jpg"
@@ -41,7 +40,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-4.jpg"
@@ -51,7 +50,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-5.jpeg"
@@ -61,7 +60,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <figure>
             <img
               src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-6.jpeg"
