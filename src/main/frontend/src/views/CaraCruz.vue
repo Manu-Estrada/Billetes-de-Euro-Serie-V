@@ -1,33 +1,41 @@
 <script setup>
-function caracruz() {
-    alert("caracruz");
-   require("../assets/js/caracruz");
-}
+import Footer from "@/components/Footer.vue";
+import Navigation from "../components/Navigation.vue";
+import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
+
 </script>
 <template>
-  <div>
-    <div class="container" onload="caracruz()">
-      <div class="coin" id="coin">
-        <div class="heads">
-          <img src="../assets/img/caracruz/Mónaco-2007-2€-Con-1.webp" alt="" />
+  <main>
+    <ButtonsRegisterVue></ButtonsRegisterVue>
+    <Navigation></Navigation>
+    <div>
+      <div class="container" onload="caracruz()">
+        <div class="coin" id="coin">
+          <div class="heads">
+            <img
+              src="../assets/img/caracruz/Mónaco-2007-2€-Con-1.webp"
+              alt=""
+            />
+          </div>
+          <div class="tails">
+            <img
+              src="../assets/img/caracruz/rEVERSO-COMUN-2E-1-300x300.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="tails">
-          <img
-            src="../assets/img/caracruz/rEVERSO-COMUN-2E-1-300x300.png"
-            alt=""
-          />
+        <div class="stats">
+          <p id="heads-count">Caras: 0</p>
+          <p id="tails-count">Cruces: 0</p>
         </div>
-      </div>
-      <div class="stats">
-        <p id="heads-count">Caras: 0</p>
-        <p id="tails-count">Cruces: 0</p>
-      </div>
-      <div class="buttons">
-        <button id="flip-button">Lanza la moneda</button>
-        <button id="reset-button">Reset</button>
+        <div class="buttons">
+          <button id="flip-button">Lanza la moneda</button>
+          <button id="reset-button">Reset</button>
+        </div>
       </div>
     </div>
-  </div>
+  </main>
+  <Footer></Footer>
 </template>
 
 <style scoped>
