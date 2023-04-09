@@ -90,6 +90,11 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     hsl(214, 47%, 23%),
     hsl(237, 49%, 15%)
   );
+  color: #fff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+  min-height:  100vh;
+  margin-bottom: 50px;
 }
 .container {
   margin: 0 auto;
