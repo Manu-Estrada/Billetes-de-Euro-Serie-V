@@ -64,7 +64,7 @@ const router = createRouter({
   
   
     {
-      path: '/src/views/Diviertete.vue',
+      path: '/Diviertete',
       name: 'diviertete',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -72,7 +72,7 @@ const router = createRouter({
       component: () => import('../views/Diviertete.vue')
     },
   {
-    path: '/src/views/PiedraPapelTijera.vue',
+    path: '/PiedraPapelTijera',
     name: 'piedrapapeltijera',
     // route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
@@ -81,7 +81,7 @@ const router = createRouter({
   },
    
   {
-    path: '/src/views/Tragaperras.vue',
+    path: '/Tragaperras',
     name: 'tragaperras',
     // route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
@@ -90,16 +90,16 @@ const router = createRouter({
   },
 
   {
-  path: '/src/views/Tragaperras.vue',
-  name: 'tragaperras',
+  path: '/CaraCruz',
+  name: 'caracruz',
   // route level code-splitting
   // this generates a separate chunk (About.[hash].js) for this route
   // which is lazy-loaded when the route is visited.
-  component: () => import('../views/Tragaperras.vue')
+  component: () => import('../views/CaraCruz.vue')
 },
 
   {
-  path: '/src/views/Contacto.vue',
+  path: '/Contacto',
   name: 'contacto',
   // route level code-splitting
   // this generates a separate chunk (About.[hash].js) for this route
@@ -108,7 +108,7 @@ const router = createRouter({
   },
 
   {
-  path: '/src/views/Fabricacion.vue',
+  path: '/Fabricacion',
   name: 'fabricacion',
   // route level code-splitting
   // this generates a separate chunk (About.[hash].js) for this route

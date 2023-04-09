@@ -14,7 +14,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         <div class="row">
           <div class="col-md-4">
             <div class="card">
-              <RouterLink to="/src/views/caracruz/CaraCruz.vue">
+              <RouterLink to="/CaraCruz">
                 <figure class="ratio ratio-16x9">
                   <img
                     class="card-img-top"
@@ -34,7 +34,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           </div>
           <div class="col-md-4">
             <div class="card">
-              <RouterLink to="/src/views/PiedraPapelTijera.vue">
+              <RouterLink to="/PiedraPapelTijera">
                 <figure class="ratio ratio-16x9">
                   <img
                     class="card-img-top"
@@ -54,7 +54,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           </div>
           <div class="col-md-4">
             <div class="card">
-              <RouterLink to="/src/views/Tragaperras.vue">
+              <RouterLink to="/Tragaperras">
                 <figure class="ratio ratio-16x9">
                   <img
                     class="card-img-top"

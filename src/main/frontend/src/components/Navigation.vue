@@ -12,8 +12,8 @@ import { RouterLink } from "vue-router";
       <li>
         <a href="https://www.youtube.com/watch?v=h4_PTIW7AKc" target="_blank">Fabricación</a>
       </li>
-      <li><RouterLink to="/src/views/Diviertete.vue">Diviértete</RouterLink></li>
-      <li><RouterLink to="/src/views/Contacto.vue">Contacto</RouterLink></li>
+      <li><RouterLink to="/Diviertete">Diviértete</RouterLink></li>
+      <li><RouterLink to="/Contacto">Contacto</RouterLink></li>
     </ul>
   </nav>
 </template>
