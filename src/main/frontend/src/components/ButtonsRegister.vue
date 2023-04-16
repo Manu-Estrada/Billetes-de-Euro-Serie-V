@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 </script>
 <template>
-    <div class="d-grid gap-2 d-md-flex justify-content-around mt-5 mb-5">
+    <div class="d-grid gap-2 d-md-flex justify-content-around">
         <button type="button" class="btn btn-outline-primary px-5">
           <RouterLink to="/Registrate">Regístrate</RouterLink>  
         </button>
@@ -14,21 +14,23 @@ import { RouterLink } from 'vue-router';
 
 <style scoped lang="scss">
 button {
-  background-color: rgb(131, 131, 244);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(189, 189, 189);
   font-weight: bold;
-  border: 2px solid rgb(11, 11, 134);
+  border: 2px solid rgb(159, 157, 157);
   transition: all 0.2s;
 
 &:hover {
-    background-color: whitesmoke;
-    border: 2px solid blue;
+    background-color: rgb(189, 189, 189);
+    border: 2px solid rgb(159, 157, 157);
     a {
-      color: rgb(131, 131, 244);
+      color: blue;
     }
   }
 }
 a {
-  color: whitesmoke;
+  color: white;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 

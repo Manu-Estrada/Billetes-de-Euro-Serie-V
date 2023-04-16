@@ -18,7 +18,7 @@ header{
   align-items: center;
   justify-content: center;
   font-family: Adlery_Swash;
-  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
 
   h1{
     display: flex;
@@ -29,10 +29,10 @@ header{
     text-align: center;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
     font-size: 5vw; 
     margin: 0%;
     text-shadow: 5px 5px 5px black;
   }
+  
 }
 </style>

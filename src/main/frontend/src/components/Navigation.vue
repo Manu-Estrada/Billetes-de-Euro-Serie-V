@@ -20,7 +20,7 @@ import { RouterLink } from "vue-router";
 
 <style scoped lang="scss">
 nav {
-  background-color: rgb(190, 188, 153);
+  background-color: rgb(189, 189, 189);
   padding: 10px;
   ul {
     margin: 0;

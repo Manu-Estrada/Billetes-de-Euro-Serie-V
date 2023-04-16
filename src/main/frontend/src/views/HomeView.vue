@@ -95,7 +95,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row">
           <div class="col-md-6">
             <div class="card">
               <figure class="ratio ratio-16x9">
@@ -160,5 +160,8 @@ p {
   text-align: center;
 }
 
+main{
+  background-color: rgb(237, 237, 237);
+}
 
 </style>

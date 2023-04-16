@@ -9,24 +9,12 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     <div class="container">
       <h1>La Fabricación de los Billetes</h1>
       <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-            <figure>
-              <img src="../assets/img/fabricacionbilletes.jpg" alt="" />
-            </figure>
-            <div class="card-body">
-              <h5 class="card-title">
                 <a
-                  href="https://www.youtube.com/watch?v=h4_PTIW7AKc"
+                href="../assets/video/Como se HACE el DINERO en las Fábricas💶_ Como se CREA el DINERO bancario _ Fábrica de dinero.mp4"  
                   target="_blank"
-                  >Billetes</a
-                >
-              </h5>
-            </div>
+                  ></a>
           </div>
         </div>
-      </div>
-    </div>
     <Footer></Footer>
   </main>
 </template>

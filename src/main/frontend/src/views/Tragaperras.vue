@@ -108,7 +108,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </ul>
       </div>
     </div>
-
+<div class="btn">
     <button
       type="button"
       class="stop-btn"
@@ -127,7 +127,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
       data-val="2"
       disabled="true"
     ></button>
-
+  </div>
     <div>
       <button id="start-btn">Start!</button>
     </div>
@@ -139,10 +139,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 </template>
 
 <style scoped>
-:root {
-  --outer-shadow: 0 0 0.1vw 0.4vw #fffb00, 0 0 0.4vw 0.6vw #000000,
-    0 0 1vw 0.4vw #001214;
-}
+
 
 .slot {
   width: 88%;
@@ -170,7 +167,6 @@ ul li {
   border-radius: 5px;
   width: 98%;
   margin: 1px 0;
-  background-color: #ffd400;
 }
 
 .reels {
@@ -195,24 +191,28 @@ ul li {
   display: block;
   margin: auto;
   height: 240px;
-  max-width: 100%;
+  width: 530px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
 }
 
 .stop-btn {
   display: inline-block;
   padding: 35px;
   margin: 40px;
-  background-color: rgb(236, 27, 27);
-  box-shadow: 0 0 29 31 #fff, 0 0 19px 19px #f00, 0 0 33px 17px #f00;
-  border-bottom: solid 4px #627295;
+  background-color: rgb(244, 156, 163);
+  box-shadow: 0 0 29 31 #fff, 0 0 19px 19px rgb(237, 119, 119), 0 0 33px 17px rgb(237, 119, 119);
+  border-bottom: solid 4px #98a6c4;
   border-radius: 60px;
 }
 
 .stop-btn:hover {
-  background-color: rgb(82, 245, 76);
+  background-color: rgb(181, 230, 180);
   cursor: pointer;
-  box-shadow: 0 0 29px 31px #fff, 0 0 19px 19px rgb(21 255 0),
-    0 0 33px 17px rgb(0 255 42);
+  box-shadow: 0 0 29px 31px #fff, 0 0 19px 19px rgb(181 230  0),
+    0 0 33px 17px  rgb(181 230  0);
 }
 
 .stop-btn:active {
@@ -222,17 +222,19 @@ ul li {
 }
 
 #start-btn {
+  margin-left: 750px;
   display: inline-block;
   padding: 20px 40px;
-  background-color: #68ee3b;
-  border: 5px solid #35f70f;
+  background-color: rgb(181, 230, 180);
+  border: 5px solid rgb(113, 225, 109);
   font-size: 30px;
   margin-bottom: 40px;
   font-weight: bold;
+
 }
 
 #start-btn:hover {
-  background-color: #c3f706;
+  background-color: rgb(113, 225, 109);
   cursor: pointer;
 }
 

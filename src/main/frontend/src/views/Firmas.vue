@@ -89,15 +89,27 @@ figure {
   }
 }
 h1 {
-  font-family: Adlery_Swash ;
   text-align: center;
-  margin-top: 20px;
+  font-family: Adlery_Swash;
+  margin-top: 30px;
   margin-bottom: 30px;
-  color: rgb(8, 45, 94);
+  font-size: 70px;
+  color: rgb(7, 121, 47);
+  text-shadow: 1px 1px 1px black;
 }
 
 h5 {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+ img {
+  display: block;
+  margin: auto;
+  height: 214.4px;
+  width: 120.4px;
+}
+.card {
   margin-bottom: 20px;
 }
 </style>

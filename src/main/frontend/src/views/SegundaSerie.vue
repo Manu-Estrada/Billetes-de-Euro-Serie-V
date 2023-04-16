@@ -8,9 +8,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     <ButtonsRegisterVue></ButtonsRegisterVue>
     <Navigation></Navigation>
     <div class="container">
-      <h2>Dragui Serie VA</h2>
+      <h2>Mario Dragui Serie VA</h2>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 mb-5">
           <figure>
             <img
               src="../assets/img/segundaserie/serie-va/billete5Dragui-VA.jpg"
@@ -51,7 +51,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           </figure>
         </div>
       </div>
-      <h2>Dragui Serie VB</h2>
+      <h2>Mario Dragui Serie VB</h2>
       <div class="row">
         <div class="col-md-3">
           <figure>
@@ -69,8 +69,6 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
             />
           </figure>
         </div>
-      </div>
-      <div class="row">
         <div class="col-md-3">
           <figure>
             <img
@@ -78,9 +76,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
               alt=""
             />
           </figure>
-        </div>
       </div>
-      <h2>Dragui Serie VH</h2>
+      </div>
+      <h2>Mario Dragui Serie VH</h2>
       <div class="row">
         <div class="col-md-3">
           <figure>
@@ -100,9 +98,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
       </div>
 
-      <h2>Lagarde Serie VB</h2>
+      <h2>Christine Lagarde Serie VB</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <figure>
             <img
               src="../assets/img/segundaserie/serie-vb-lagarde/billete5€Lagarde-VB.jpg"
@@ -126,7 +124,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
             />
           </figure>
         </div>
-        <h2>Lagarde Serie VC</h2>
+        <h2>Christine Lagarde Serie VC</h2>
         <div class="col-md-3">
           <figure>
             <img
@@ -151,8 +149,8 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
             />
           </figure>
         </div>
-        <h2>Lagarde Serie VD</h2>
-        <div class="col-md-3">
+        <h2>Christine Lagarde Serie VD</h2>
+        <div class="col-md-3 mb-5">
           <figure>
             <img
               src="../assets/img/serie-vd/billete50€Lagarde-VD.jpg"
@@ -174,6 +172,11 @@ figure {
   img {
     width: 100%;
   }
+  img {
+    margin:auto;;
+    width: 240px;
+    height: 134.29px;
+  }
 }
 
 h2 {
@@ -181,6 +184,16 @@ h2 {
   font-family: Adlery_Swash;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 70px;
+  color: rgb(0, 51, 255);
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
 }
+  
+h2:hover{
+  transform:scale(1.1);
+}
+
+
 
 </style>

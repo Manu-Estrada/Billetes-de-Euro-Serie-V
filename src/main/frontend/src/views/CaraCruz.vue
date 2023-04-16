@@ -44,6 +44,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
   width: 400px;
   padding: 35px;
   margin: 50px;
+  margin-left: 700px;
   border-radius: 10px;
   box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.1);
 }

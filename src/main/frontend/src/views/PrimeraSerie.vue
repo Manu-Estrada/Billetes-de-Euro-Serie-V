@@ -9,7 +9,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
   <ButtonsRegisterVue></ButtonsRegisterVue> 
     <Navigation></Navigation>
     <div class="container">
-      <h2>Duisenberg</h2>
+      <h2> Win Duisenberg</h2>
       <div class="row">
         <div class="col-md-3">
           <figure>
@@ -68,7 +68,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           </figure>
         </div>
       </div>
-      <h2>Trichet</h2>
+      <h2>Jean-Claude Trichet</h2>
       <div class="row">
         <div class="col-md-3">
           <figure>
@@ -95,7 +95,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           </figure>
         </div>
       </div>
-      <h2>Dragui</h2>
+      <h2>Mario Dragui</h2>
       <div class="row">
         <div class="col-md-3">
           <figure>
@@ -123,17 +123,29 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 figure {
   width: 100%;
   img {
-    width: 100%;
-    object-fit: cover;
+      margin:auto;;
+      width: 240px;
+      height: 134.29px;
+    }
   }
-}
+
 
 h2 {
   text-align: center;
   font-family: Adlery_Swash;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 70px;
+  color: rgb(0, 51, 255);
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
 }
+
+
+h2:hover{
+  transform:scale(1.1);
+}
+
 
 
 </style>

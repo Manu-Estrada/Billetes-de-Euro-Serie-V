@@ -9,67 +9,6 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     <Navigation></Navigation>
     <div class="container">
       <h2>Próximamente ...</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-1.jpg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-2.jpg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-3.jpg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-4.jpg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-5.jpeg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-6.jpeg"
-              alt=""
-            />
-          </figure>
-        </div>
-      </div>
-
       <div class="card-body">
         <h5 class="card-title">
           <a
@@ -80,7 +19,59 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
           >
         </h5>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-1.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-2.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-3.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-4.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-5.jpeg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <img
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-6.jpeg"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+      </div>
+
+     
   </main>
   <Footer></Footer>
 </template>
@@ -91,6 +82,7 @@ figure {
   img {
     width: 100%;
     object-fit: cover;
+    
   }
 }
 
@@ -99,13 +91,24 @@ h2 {
   font-family: Adlery_Swash;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 70px;
+  color: rgb(7, 121, 47);
+  text-shadow: 1px 1px 1px black;
 }
 
 a {
+  font-size: 70px;
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
+
+ img {
+  margin:auto;;
+  width: 456px;
+  height: 550px;
+}
+
 </style>
