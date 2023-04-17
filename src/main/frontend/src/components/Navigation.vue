@@ -10,7 +10,8 @@ import { RouterLink } from "vue-router";
         <a href="https://es.wikipedia.org/wiki/Euro" target="_blank">Historia del Euro</a>
       </li>
       <li>
-        <a href="https://www.youtube.com/watch?v=h4_PTIW7AKc" target="_blank">Fabricación</a>
+        <RouterLink to="/Fabricacion">Fabricación</RouterLink>
+        
       </li>
       <li><RouterLink to="/Diviertete">Diviértete</RouterLink></li>
       <li><RouterLink to="/Contacto">Contacto</RouterLink></li>

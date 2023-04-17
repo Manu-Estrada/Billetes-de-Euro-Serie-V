@@ -2,6 +2,12 @@
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
+import tragaperras from "../assets/js/tragaperras";
+import { onMounted } from "vue";
+
+onMounted(() => {
+  tragaperras();
+})
 
 </script>
 <template>
@@ -140,7 +146,9 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 
 <style scoped>
 
-
+main{
+  background-color: hsl(215, 35%, 89%);
+}
 .slot {
   width: 88%;
   height: 400px;

@@ -1,18 +1,17 @@
 <script setup>
 import Footer from "@/components/Footer.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
+import Navigation from "../components/Navigation.vue";
 </script>
 
 <template>
   <main>
     <ButtonsRegisterVue></ButtonsRegisterVue>
-    <div class="container">
+    <Navigation></Navigation>
+    <div class="mb-5 container">
       <h1>La Fabricación de los Billetes</h1>
       <div class="row">
-                <a
-                href="../assets/video/Como se HACE el DINERO en las Fábricas💶_ Como se CREA el DINERO bancario _ Fábrica de dinero.mp4"  
-                  target="_blank"
-                  ></a>
+        <video autoplay controls src="../assets/video/como-se-hace-el-dinero .mp4"></video>
           </div>
         </div>
     <Footer></Footer>
@@ -20,6 +19,12 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 </template>
 
 <style scoped lang="scss">
+h1{
+  text-align: center;
+  font-family: Adlery_Swash;
+  color: rgb(7, 121, 47);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
 nav {
   background-color: rgb(190, 188, 153);
   padding: 10px;
@@ -35,6 +40,7 @@ nav {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: bold;
+
 
     a {
       color: white;

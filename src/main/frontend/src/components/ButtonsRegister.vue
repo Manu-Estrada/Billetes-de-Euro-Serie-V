@@ -21,7 +21,8 @@ button {
   border: 2px solid rgb(159, 157, 157);
   transition: all 0.2s;
 
-&:hover {
+
+  &:hover {
     background-color: rgb(189, 189, 189);
     border: 2px solid rgb(159, 157, 157);
     a {

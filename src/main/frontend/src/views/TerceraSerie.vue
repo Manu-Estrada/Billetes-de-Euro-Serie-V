@@ -31,7 +31,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         <div class="col-md-6">
           <figure>
             <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-2.jpg"
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-2.jpeg"
               alt=""
             />
           </figure>
@@ -39,7 +39,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         <div class="col-md-6">
           <figure>
             <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-3.png"
+              src="../assets/img/terceraserie/terceraserie-fotos/serie3-imagen.jpeg"
               alt=""
             />
           </figure>
@@ -55,7 +55,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         <div class="col-md-6">
           <figure>
             <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-5.jpeg"
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-5.jpg"
               alt=""
             />
           </figure>
@@ -63,7 +63,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         <div class="col-md-6">
           <figure>
             <img
-              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-6.jpeg"
+              src="../assets/img/terceraserie/terceraserie-fotos/terceraserie-fotos-6.png"
               alt=""
             />
           </figure>

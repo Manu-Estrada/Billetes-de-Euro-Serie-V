@@ -2,7 +2,12 @@
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
+import caracruz from "../assets/js/caracruz";
+import { onMounted } from "vue";
 
+onMounted(() => {
+  caracruz();
+});
 </script>
 <template>
   <main>
@@ -30,7 +35,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
         </div>
         <div class="buttons">
           <button id="flip-button">Lanza la moneda</button>
-          <button id="reset-button">Reset</button>
+          <button id="reset-button">Resetea</button>
         </div>
       </div>
     </div>
