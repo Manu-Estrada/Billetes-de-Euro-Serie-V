@@ -112,4 +112,8 @@ h5 {
 .card {
   margin-bottom: 20px;
 }
+main{
+  background-color: rgb(250, 247, 243);
+
+}
 </style>

@@ -7,73 +7,45 @@ import { onMounted } from "vue";
 
 onMounted(() => {
   piedrapapeltijera();
-})
+});
 </script>
 <template>
   <main>
     <ButtonsRegisterVue></ButtonsRegisterVue>
     <Navigation></Navigation>
     <div class="background">
-    <div class="container">
-      <header>
-        <h1>
-          <span>Rock</span>
-          <span>Paper</span>
-          <span>Scissors</span>
-        </h1>
-        <div class="score-container">
-          <h4>Score</h4>
-          <p id="score">0</p>
-        </div>
-      </header>
-    </div>
+      <div class="container">
+        <header>
+          <h1>
+            <span>Rock</span>
+            <span>Paper</span>
+            <span>Scissors</span>
+          </h1>
+          <div class="score-container">
+            <h4>Score</h4>
+            <p id="score">0</p>
+          </div>
+        </header>
+      </div>
 
-    <main id="main">
-      <button class="btn-circle btn-paper pick" data-choice="paper">
-        <span class="wrapper">
-          <img
-            src="../assets/img/piedrapapeltijera/icon-paper.svg"
-            alt="icon-paper"
-          />
-        </span>
-      </button>
-      <button class="btn-circle btn-scissors pick" data-choice="scissors">
-        <span class="wrapper">
-          <img
-            src="../assets/img/piedrapapeltijera/icon-scissors.svg"
-            alt="icon-scissors"
-          />
-        </span>
-      </button>
-      <button class="btn-circle btn-rock pick" data-choice="rock">
-        <span class="wrapper">
-          <img
-            src="../assets/img/piedrapapeltijera/icon-rock.svg"
-            alt="icon-rock"
-          />
-        </span>
-      </button>
-    </main>
-
-    <div class="selection" id="selection">
-      <div>
-        <h2>You picked</h2>
-        <button class="btn-circle btn-paper" id="user_select">
+      <main id="main">
+        <button class="btn-circle btn-paper pick" data-choice="paper">
           <span class="wrapper">
             <img
               src="../assets/img/piedrapapeltijera/icon-paper.svg"
-              alt="icon-paperbtn-paper"
+              alt="icon-paper"
             />
           </span>
         </button>
-      </div>
-      <div>
-        <p class="big-text">You <span id="winner">win</span></p>
-        <button class="btn" id="reset">Play again</button>
-      </div>
-      <div>
-        <h2>The computer picked</h2>
-        <button class="btn-circle btn-rock" id="computer_select">
+        <button class="btn-circle btn-scissors pick" data-choice="scissors">
+          <span class="wrapper">
+            <img
+              src="../assets/img/piedrapapeltijera/icon-scissors.svg"
+              alt="icon-scissors"
+            />
+          </span>
+        </button>
+        <button class="btn-circle btn-rock pick" data-choice="rock">
           <span class="wrapper">
             <img
               src="../assets/img/piedrapapeltijera/icon-rock.svg"
@@ -81,25 +53,52 @@ onMounted(() => {
             />
           </span>
         </button>
+      </main>
+
+      <div class="selection" id="selection">
+        <div>
+          <h2>You picked</h2>
+          <button class="btn-circle btn-paper" id="user_select">
+            <span class="wrapper">
+              <img
+                src="../assets/img/piedrapapeltijera/icon-paper.svg"
+                alt="icon-paperbtn-paper"
+              />
+            </span>
+          </button>
+        </div>
+        <div>
+          <p class="big-text">You <span id="winner">win</span></p>
+          <button class="btn" id="reset">Play again</button>
+        </div>
+        <div>
+          <h2>The computer picked</h2>
+          <button class="btn-circle btn-rock" id="computer_select">
+            <span class="wrapper">
+              <img
+                src="../assets/img/piedrapapeltijera/icon-rock.svg"
+                alt="icon-rock"
+              />
+            </span>
+          </button>
+        </div>
       </div>
-    </div>
     </div>
   </main>
   <Footer></Footer>
 </template>
 
 <style scoped>
-
-.background{
+.background {
   background: radial-gradient(
-    circle at 50% 0%, 
-    hsl(214, 47%, 23%),
-    hsl(237, 49%, 15%)
+    circle at 50% 0%,
+    hsl(214, 89%, 11%),
+    hsl(240, 17%, 54%)
   );
   color: #fff;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 
-  min-height:  100vh;
+  min-height: 100vh;
   margin-bottom: 50px;
 }
 .container {

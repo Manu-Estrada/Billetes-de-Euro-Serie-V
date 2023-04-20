@@ -96,5 +96,11 @@ p:hover{
   color:whitesmoke;
 }
 
-
+@media screen and (max-width: 768px) {
+  .container-social-media {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>

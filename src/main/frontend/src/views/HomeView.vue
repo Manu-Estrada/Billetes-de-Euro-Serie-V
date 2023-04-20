@@ -28,9 +28,10 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Primera Serie</h1>
-                  <p class="card-text"><strong>
-                    Win Duisenberg, Jean-Claude Trichet, Mario Dragui.
-                  </strong>
+                  <p class="card-text">
+                    <strong>
+                      Win Duisenberg, Jean-Claude Trichet, Mario Dragui.
+                    </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -48,9 +49,10 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Segunda Serie</h1>
-                  <p class="card-text"><strong>
-                    Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.
-                  </strong>
+                  <p class="card-text">
+                    <strong>
+                      Adoptada, Serie Europa. Mario Dragui, Christine Lagarde.
+                    </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -85,10 +87,11 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
                 </figure>
                 <div class="card-body">
                   <h1 class="card-title">Firmas</h1>
-                  <p class="card-text"><strong>
-                    Wim Duisenberg, Jean-Claude Trichet, Mario Draghi, Christine
-                    Lagarde.
-                  </strong>
+                  <p class="card-text">
+                    <strong>
+                      Wim Duisenberg, Jean-Claude Trichet, Mario Draghi,
+                      Christine Lagarde.
+                    </strong>
                   </p>
                 </div>
               </RouterLink>
@@ -107,9 +110,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
               </figure>
               <div class="card-body">
                 <h1 class="card-title">
-                  <a href="https://www.fnmt.es" target="_blank"
-                    >F.N.M.T.</a
-                  >
+                  <a href="https://www.fnmt.es" target="_blank">F.N.M.T.</a>
                 </h1>
               </div>
             </div>
@@ -160,8 +161,7 @@ p {
   text-align: center;
 }
 
-main{
-  background-color: rgb(237, 237, 237);
+main {
+  background-color: rgb(250, 247, 243);
 }
-
 </style>

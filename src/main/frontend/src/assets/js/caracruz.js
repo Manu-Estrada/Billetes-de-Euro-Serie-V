@@ -12,8 +12,8 @@ export default function caracruz() {
     if (i) {
       setTimeout(function () {
         coin.style.animation = "spin-heads 3s forwards";
+        heads++;
       }, 100);
-      heads++;
     } else {
       setTimeout(function () {
         coin.style.animation = "spin-tails 3s forwards";

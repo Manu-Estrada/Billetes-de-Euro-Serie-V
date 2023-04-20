@@ -131,7 +131,6 @@ figure {
 
 
 h2 {
-  overflow: hidden;
   height: 100%;
   text-align: center;
   font-family: Adlery_Swash;
@@ -148,6 +147,9 @@ h2:hover{
   transform:scale(1.1);
 }
 
+main{
+  background-color: rgb(250, 247, 243);
 
+}
 
 </style>

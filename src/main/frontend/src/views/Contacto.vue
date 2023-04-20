@@ -34,9 +34,6 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    
-    
-    
   }  
   .card-body {
     margin: 0;
@@ -52,11 +49,7 @@ import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
  ul {
     list-style: none;
 margin-right: 30px;
-margin-bottom: 30px;
-    
+margin-bottom: 30px; 
 }
-
-
-
 
 </style>

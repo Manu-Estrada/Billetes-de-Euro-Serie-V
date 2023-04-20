@@ -177,9 +177,11 @@ form {
     text-shadow: 0.5px 0.5px 0.5px black;
   }
   
- div.container {
+  div.container {
   background-color: rgb(244, 244, 226);
+  margin-top: 0.5%;
  }
+
 .Asterisk {
   color: red;
 }

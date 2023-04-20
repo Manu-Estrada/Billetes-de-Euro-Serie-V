@@ -110,5 +110,9 @@ a {
   width: 456px;
   height: 550px;
 }
+main{
+  background-color: rgb(250, 247, 243);
+
+}
 
 </style>

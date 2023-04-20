@@ -2,20 +2,41 @@
 import Footer from "@/components/Footer.vue";
 import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
-import caracruz from "../assets/js/caracruz";
-import { onMounted } from "vue";
+import { ref } from "vue";
 
-onMounted(() => {
-  caracruz();
-});
+const spin = ref("");
+const heads = ref(0);
+const tails = ref(0);
+
+const start = () => {
+  console.log("game start");
+
+  let i = Math.floor(Math.random() * 2);
+
+  if (i) {
+    spin.value = "spinHeads";
+    heads.value += 1;
+  } else {
+    spin.value = "spinTails";
+    tails.value += 1;
+    
+  }
+};
+
+const reset = () => {
+  spin.value ="";
+  heads.value = 0;
+  tails.value = 0;
+};
 </script>
+
 <template>
   <main>
     <ButtonsRegisterVue></ButtonsRegisterVue>
     <Navigation></Navigation>
     <div>
-      <div class="container" onload="caracruz()">
-        <div class="coin" id="coin">
+      <div class="container">
+        <div :class="['coin', spin]" id="coin">
           <div class="heads">
             <img
               src="../assets/img/caracruz/Mónaco-2007-2€-Con-1.webp"
@@ -30,12 +51,12 @@ onMounted(() => {
           </div>
         </div>
         <div class="stats">
-          <p id="heads-count">Caras: 0</p>
-          <p id="tails-count">Cruces: 0</p>
+          <p id="heads-count">Caras: {{ heads }}</p>
+          <p id="tails-count">Cruces: {{ tails }}</p>
         </div>
         <div class="buttons">
-          <button id="flip-button">Lanza la moneda</button>
-          <button id="reset-button">Resetea</button>
+          <button id="flip-button" @click="start">Lanza la moneda</button>
+          <button id="reset-button" @click="reset">Resetea</button>
         </div>
       </div>
     </div>
@@ -52,6 +73,16 @@ onMounted(() => {
   margin-left: 700px;
   border-radius: 10px;
   box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.1);
+}
+
+.spinHeads {
+  animation: spin-heads 3s forwards;
+  transform: rotateX(180deg);
+}
+
+.spinTails {
+  animation: spin-tails 3s forwards;
+  transform: rotateX(180deg);
 }
 
 .coin {
@@ -135,4 +166,9 @@ button {
   background: #674706;
   color: white;
 }
+main {
+  background-color: rgb(250, 247, 243);
+}
 </style>
+
+

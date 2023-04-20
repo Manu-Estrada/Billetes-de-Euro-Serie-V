@@ -194,6 +194,9 @@ h2:hover{
   transform:scale(1.1);
 }
 
+main{
+  background-color: rgb(250, 247, 243);
 
+}
 
 </style>

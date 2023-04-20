@@ -147,7 +147,7 @@ onMounted(() => {
 <style scoped>
 
 main{
-  background-color: hsl(215, 35%, 89%);
+  background-color: rgb(250, 247, 243);
 }
 .slot {
   width: 88%;

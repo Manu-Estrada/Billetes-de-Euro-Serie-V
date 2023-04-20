@@ -7,11 +7,12 @@ import { RouterLink } from "vue-router";
     <ul>
       <li><RouterLink to="/">Inicio</RouterLink></li>
       <li>
-        <a href="https://es.wikipedia.org/wiki/Euro" target="_blank">Historia del Euro</a>
+        <a href="https://es.wikipedia.org/wiki/Euro" target="_blank"
+          >Historia del Euro</a
+        >
       </li>
       <li>
         <RouterLink to="/Fabricacion">Fabricación</RouterLink>
-        
       </li>
       <li><RouterLink to="/Diviertete">Diviértete</RouterLink></li>
       <li><RouterLink to="/Contacto">Contacto</RouterLink></li>
@@ -36,12 +37,27 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
 
+    li {
+      display: flex;
+      align-items: center;
+    }
+
     a {
       color: white;
       transition: all 0.4s;
       &:hover {
         color: blue;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+
+    li {
+      margin-bottom: 10px;
     }
   }
 }
