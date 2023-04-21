@@ -73,12 +73,8 @@ En el año 2024 está previsto cambiar todos los billetes, y los actuales pasar�
 
 ###  Vistas
 
+![Captura de pantalla Figma](https://user-images.githubusercontent.com/116894398/233747120-965f5824-9080-41ee-86a7-0f42692cac5a.png)
 
-<p align="center"><img width="400" alt="nombre" src=""></p>
-
-<p align="center"><img width="200" alt="nombre" src=""></p>
-<p align="center"><img width="200" alt="nombre" src=""></p>
-<p align="center"><img width="200" alt="nombre" src=""></p>
 
 - [Figma]https://www.figma.com/file/ZerDi1B277WC7pc142Jya7/Untitled?node-id=0%3A1&t=SokOpTSvvCzPlWMy-0
 
