@@ -123,6 +123,11 @@ async function save() {
 </template>
 
 <style lang="scss" scoped>
+.container {
+  background-color: rgb(244, 244, 226);
+  margin-bottom: 4%;
+}
+
 h1 {
   color: rgb(218, 22, 22);
   text-align: center;
@@ -149,8 +154,8 @@ form {
     font-weight: bold;
     border: 2px solid rgb(159, 157, 157);
     transition: all 0.2s;
-  
-   &:hover {
+
+    &:hover {
       background-color: rgb(189, 189, 189);
       border: 2px solid rgb(159, 157, 157);
       a {
@@ -159,11 +164,10 @@ form {
     }
   }
 }
-  a {
-    color: white;
-    text-shadow: 0.5px 0.5px 0.5px black;
-  }
-
+a {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
 
 .Asterisk {
   color: red;

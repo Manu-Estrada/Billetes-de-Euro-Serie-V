@@ -60,9 +60,7 @@ async function save() {
     <Navigation></Navigation>
     <div class="container">
       <div id="TitleAndButton">
-        <h1>
-          Date de alta, es necesario estar registrado.
-        </h1>
+        <h1>Date de alta, es necesario estar registrado.</h1>
       </div>
       <form id="form">
         <div class="form-group">
@@ -162,8 +160,8 @@ form {
     font-weight: bold;
     border: 2px solid rgb(159, 157, 157);
     transition: all 0.2s;
-  
-   &:hover {
+
+    &:hover {
       background-color: rgb(189, 189, 189);
       border: 2px solid rgb(159, 157, 157);
       a {
@@ -172,15 +170,16 @@ form {
     }
   }
 }
-  a {
-    color: white;
-    text-shadow: 0.5px 0.5px 0.5px black;
-  }
-  
-  div.container {
+a {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+div.container {
   background-color: rgb(244, 244, 226);
   margin-top: 0.5%;
- }
+  margin-bottom: 4%;
+}
 
 .Asterisk {
   color: red;

@@ -33,18 +33,17 @@ footer {
   justify-content: center;
 }
 nav {
-  padding: 10px;
   width: 100%;
 }
 
 .container-social-media {
   font-family: Didot;
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding:0%;
   color: whitesmoke;
   text-shadow: 1px 1px 1px black;
   list-style: none;
-  font-size: 24px;
+  font-size: 150%;
   text-transform: uppercase;
   font-weight: bold;
   display: flex;
@@ -63,7 +62,7 @@ nav {
 }
 
 p {
-  margin-top: 10px;
+  margin-top: 1%;
 }
 p:hover{
   transform:scale(1.2);
@@ -96,11 +95,4 @@ p:hover{
   color:whitesmoke;
 }
 
-@media screen and (max-width: 768px) {
-  .container-social-media {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-  }
-}
 </style>

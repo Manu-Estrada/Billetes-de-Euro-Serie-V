@@ -130,7 +130,7 @@ figure {
   }
 
 
-h2 {
+h2 {;
   height: 100%;
   text-align: center;
   font-family: Adlery_Swash;

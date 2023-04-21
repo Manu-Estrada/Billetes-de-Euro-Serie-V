@@ -24,6 +24,7 @@ import { RouterLink } from "vue-router";
 nav {
   background-color: rgb(189, 189, 189);
   padding: 10px;
+  margin-bottom: 4%;
   ul {
     margin: 0;
     padding: 0;

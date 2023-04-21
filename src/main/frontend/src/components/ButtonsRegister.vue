@@ -13,6 +13,7 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style scoped lang="scss">
+
 button {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -34,6 +35,7 @@ a {
   color: white;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
+
 
 
 </style>

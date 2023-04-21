@@ -9,7 +9,6 @@ const heads = ref(0);
 const tails = ref(0);
 
 const start = () => {
-  console.log("game start");
 
   let i = Math.floor(Math.random() * 2);
 
