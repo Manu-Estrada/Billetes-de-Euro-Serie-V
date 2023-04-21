@@ -1,3 +1,16 @@
+![1Captura-foto-header-botones-navbar](https://user-images.githubusercontent.com/116894398/233746297-6fb1cfc8-1e14-4d32-aef9-e6a6de162cbf.png)
+
+![2Captura-foto-Carrousel](https://user-images.githubusercontent.com/116894398/233746302-107de104-00ba-4a82-9cda-8aadfced13a1.png)
+
+![3Captura-foto-Primera-y-Segunda serie](https://user-images.githubusercontent.com/116894398/233746305-cfbbd213-bee7-4979-be65-d1841b1bc9ba.png)
+
+
+![4Captura-foto-Tercera-serie-y-firmas](https://user-images.githubusercontent.com/116894398/233746309-ba3aa8c2-4462-4d70-9562-b613feceeb60.png)
+
+![5Captura-foto-FNMT-Banco-de-España-y Footer (263)](https://user-images.githubusercontent.com/116894398/233746317-ff7d3127-62c2-4ba2-ba25-fea37c4a3f17.png)
+
+![6Captura-pantalla-Diviértete](https://user-images.githubusercontent.com/116894398/233746460-db86b234-1a54-4052-9b59-b735a410f846.png)
+
 ### Tabla de Contenido
 1. [Información General](#Info-General)
 2. [Tecnologías](#Tecnologías)
