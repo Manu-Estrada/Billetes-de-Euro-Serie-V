@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 import { ref } from "vue";
 
+
 const spin = ref("");
 const heads = ref(0);
 const tails = ref(0);
