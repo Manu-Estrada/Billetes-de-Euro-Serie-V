@@ -22,11 +22,11 @@ import Navigation from "../components/Navigation.vue";
 h1{
   text-align: center;
   font-family: Adlery_Swash;
-  color: rgb(7, 121, 47);
+  color: blue;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 nav {
-  background-color: rgb(190, 188, 153);
+  background-color:  rgb(189, 189, 189);
   padding: 10px;
   ul {
     margin: 0;

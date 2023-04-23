@@ -94,8 +94,11 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 70px;
-  color: rgb(7, 121, 47);
+  color: blue;
   text-shadow: 1px 1px 1px black;
+}
+h1:hover{
+  transform:scale(1.1);
 }
 
 h5 {
