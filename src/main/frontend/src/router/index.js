@@ -1,134 +1,128 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-
-
-
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
+      path: "/",
+      name: "home",
+      component: HomeView,
     },
     {
-      path: '/IniciarSesion',
-      name: 'IniciarSesion',
+      path: "/IniciarSesion",
+      name: "IniciarSesion",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Login.vue')
+      component: () => import("../views/Login.vue"),
     },
     {
-      path: '/Registrate',
-      name: 'Registrate',
+      path: "/Registrate",
+      name: "Registrate",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Register.vue')
-    }, {
-      path: '/primeraSerie',
-      name: 'primeraserie',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/PrimeraSerie.vue')
+      component: () => import("../views/Register.vue"),
     },
-
     {
-      path: '/SegundaSerie',
-      name: 'segundaserie',
+      path: "/primeraSerie",
+      name: "primeraserie",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/SegundaSerie.vue')
+      component: () => import("../views/PrimeraSerie.vue"),
     },
 
     {
-      path: '/TerceraSerie',
-      name: 'terceraserie',
+      path: "/SegundaSerie",
+      name: "segundaserie",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/TerceraSerie.vue')
+      component: () => import("../views/SegundaSerie.vue"),
     },
 
     {
-      path: '/Firmas',
-      name: 'firmas',
+      path: "/TerceraSerie",
+      name: "terceraserie",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Firmas.vue')
+      component: () => import("../views/TerceraSerie.vue"),
     },
 
-  
-  
     {
-      path: '/Diviertete',
-      name: 'diviertete',
+      path: "/Firmas",
+      name: "firmas",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Diviertete.vue')
+      component: () => import("../views/Firmas.vue"),
     },
-  {
-    path: '/PiedraPapelTijera',
-    name: 'piedrapapeltijera',
-    // route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import('../views/PiedraPapelTijera.vue')
-  },
-   
-  {
-    path: '/Tragaperras',
-    name: 'tragaperras',
-    // route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import('../views/Tragaperras.vue')
-  },
 
-  {
-  path: '/CaraCruz',
-  name: 'caracruz',
-  // route level code-splitting
-  // this generates a separate chunk (About.[hash].js) for this route
-  // which is lazy-loaded when the route is visited.
-  component: () => import('../views/CaraCruz.vue')
-},
+    {
+      path: "/Diviertete",
+      name: "diviertete",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Diviertete.vue"),
+    },
+    {
+      path: "/PiedraPapelTijera",
+      name: "piedrapapeltijera",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/PiedraPapelTijera.vue"),
+    },
 
-  {
-  path: '/Contacto',
-  name: 'contacto',
-  // route level code-splitting
-  // this generates a separate chunk (About.[hash].js) for this route
-  // which is lazy-loaded when the route is visited.
-  component: () => import('../views/Contacto.vue')
-  },
+    {
+      path: "/Tragaperras",
+      name: "tragaperras",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Tragaperras.vue"),
+    },
 
-  {
-  path: '/Fabricacion',
-  name: 'fabricacion',
-  // route level code-splitting
-  // this generates a separate chunk (About.[hash].js) for this route
-  // which is lazy-loaded when the route is visited.
-  component: () => import('../views/Fabricacion.vue')
-  },
+    {
+      path: "/CaraCruz",
+      name: "caracruz",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/CaraCruz.vue"),
+    },
 
-  {
-    path: '/Eventos',
-    name: 'eventos',
-    // route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import('../views/Eventos.vue')
-  }
+    {
+      path: "/Contacto",
+      name: "contacto",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Contacto.vue"),
+    },
 
-  
-  ]
-})
+    {
+      path: "/Fabricacion",
+      name: "fabricacion",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Fabricacion.vue"),
+    },
 
-export default router
+    {
+      path: "/Eventos",
+      name: "eventos",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Eventos.vue"),
+    },
+  ],
+});
+
+export default router;
