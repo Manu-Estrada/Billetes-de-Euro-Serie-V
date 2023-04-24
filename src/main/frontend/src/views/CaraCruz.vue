@@ -4,27 +4,32 @@ import Navigation from "../components/Navigation.vue";
 import ButtonsRegisterVue from "../components/ButtonsRegister.vue";
 import { ref } from "vue";
 
-
 const spin = ref("");
 const heads = ref(0);
 const tails = ref(0);
 
 const start = () => {
-
   let i = Math.floor(Math.random() * 2);
 
   if (i) {
     spin.value = "spinHeads";
-    heads.value += 1;
-  } else {
+
+    setTimeout(() => {
+      heads.value += 1;
+    }, 3000);
+
+  } 
+  else {
     spin.value = "spinTails";
-    tails.value += 1;
     
+    setTimeout(() => {
+      tails.value += 1;
+    }, 3000);
   }
 };
 
 const reset = () => {
-  spin.value ="";
+  spin.value = "";
   heads.value = 0;
   tails.value = 0;
 };
@@ -170,5 +175,3 @@ main {
   background-color: rgb(250, 247, 243);
 }
 </style>
-
-
