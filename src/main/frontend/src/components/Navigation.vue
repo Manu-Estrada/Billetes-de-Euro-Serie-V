@@ -54,13 +54,15 @@ nav {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
+    text-align: center;
 
     li {
       margin-bottom: 10px;
     }
   }
 }
+ 
 </style>
